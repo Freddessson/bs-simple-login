@@ -110,9 +110,22 @@ body {
   color: black;
 }
 
+
+@media screen and ( max-height: 715px) {
+    .margTop {
+        margin-top: 5%;
+    }
+}
+
 @media screen and ( max-height: 665px) {
     .margTop {
         margin-top: 4%;
+    }
+}
+
+@media screen and ( max-height: 585) {
+    .margTop {
+        margin-top: 1%;
     }
 }
 
