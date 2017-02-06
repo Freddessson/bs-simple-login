@@ -1,0 +1,147 @@
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-image: url('images/giraffe-1959110.jpg');
+}
+
+.box {
+    margin-top: 30vh;
+    height: 40vh;
+    padding: 20px;
+    background-image: url('images/opacyWhite.png');
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+.marg20vh {
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+
+.inputField {
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 7px;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+
+.dopeBtn {
+    width: 50%;
+    border: 0;
+    border-radius: 2px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 7px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px 0 darkgray, 0 6px 20px darkgray;
+}
+
+.dopeBtn:active {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.white {
+    color: white;
+}
+
+.marg25 {
+    margin-left: 25%;
+}
+
+.col-md-offset-4_5 {
+    margin-left: 29.175%;
+}
+
+.marg30 {
+    margin-left: 30%;
+}
+
+.marg40 {
+    margin-left: 40%;
+}
+
+.marg80 {
+    margin-left: 80%;
+}
+
+.margTop {
+    margin-top: 8%;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.vertCenter {
+    display: flex;
+    /* Vertical align: */
+    align-items: center;
+    /* Horizontal align: */
+    justify-content: center;
+    /* Safari: */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+@media screen and ( max-height: 665px) {
+    .margTop {
+        margin-top: 4%;
+    }
+}
+
+@media screen and ( max-height: 540px) {
+    .margTop {
+        margin-top: 2%;
+    }
+    .box {
+        height: 60vh;
+        margin-top: 20vh;
+    }
+}
+
+@media screen and ( max-height: 360px) {
+    .margTop {
+        margin-top: 2%;
+    }
+    .box {
+        height: 80vh;
+        margin-top: 10vh;
+    }
+}
+
+@media screen and ( max-height: 275px) {
+    .margTop {
+        margin-top: 2%;
+    }
+    .box {
+        height: 90vh;
+        margin-top: 5vh;
+    }
+}
